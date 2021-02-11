@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/recursica-chakra-starter/static/css/main.ab7136cd.chunk.css",
+    "main.css": "/recursica-chakra-starter/static/css/main.1615e743.chunk.css",
     "main.js": "/recursica-chakra-starter/static/js/main.45ca9034.chunk.js",
     "main.js.map": "/recursica-chakra-starter/static/js/main.45ca9034.chunk.js.map",
     "runtime-main.js": "/recursica-chakra-starter/static/js/runtime-main.f339d5b5.js",
@@ -10,14 +10,14 @@
     "static/js/3.0f48635f.chunk.js": "/recursica-chakra-starter/static/js/3.0f48635f.chunk.js",
     "static/js/3.0f48635f.chunk.js.map": "/recursica-chakra-starter/static/js/3.0f48635f.chunk.js.map",
     "index.html": "/recursica-chakra-starter/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/recursica-chakra-starter/static/css/main.ab7136cd.chunk.css.map",
+    "static/css/main.1615e743.chunk.css.map": "/recursica-chakra-starter/static/css/main.1615e743.chunk.css.map",
     "static/js/2.1cb7d866.chunk.js.LICENSE.txt": "/recursica-chakra-starter/static/js/2.1cb7d866.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/recursica-chakra-starter/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f339d5b5.js",
     "static/js/2.1cb7d866.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
+    "static/css/main.1615e743.chunk.css",
     "static/js/main.45ca9034.chunk.js"
   ]
 }
