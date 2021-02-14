@@ -1,0 +1,6 @@
+1. Chakra/theme UI uses lots and lots of references to sizes, etc.
+2. Chakra variants are truly variable, since they are computed.  Such as ghost
+3. Chakra fontSize in theme spec doesn't seem to match the docs (ex: fontSize md is rendered as rem, but in the docs its pixels)
+4. May need to support multiple rule properties to handle hover+disabled
+5. Chakra uses _hover for hover in pseudos
+6. 

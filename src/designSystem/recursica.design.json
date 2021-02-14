@@ -1,0 +1,7 @@
+{
+  "name": "Recursica Chakra-UI Design System",
+  "imports": [
+    "theme.design.json",
+    "../Button/button.design.json"
+  ]
+}

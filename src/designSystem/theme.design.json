@@ -1,0 +1,68 @@
+{
+  "theme": {
+    "colors": {
+      "body": "#FFFFFF",
+      "butterflyBush": "#6C4C97",
+      "white": "#FFFFFF",
+      "goldenTainoi": "#FFCC69",
+      "gravel": "#4F4C53",
+      "jacarta": "#452570"
+    },
+    "typography": {
+      "format": {
+        "unit": "rem",
+        "fontSizeRatio": 1.2
+      },
+      "styles": {
+        "body": {
+          "font-family": "'Muli', sans-serif",
+          "font-style": "normal",
+          "font-weight": "normal",
+          "font-size": "1.6rem",
+          "line-height": "2rem",
+          "color": "{theme.colors.body}"
+        },
+        "sectionTitle": {
+          "font-family": "'Muli', sans-serif",
+          "font-style": "normal",
+          "font-weight": 800,
+          "font-size": "2.1rem",
+          "line-height": "2.6rem",
+          "color": "{theme.colors.goldenTainoi}"
+        },
+        "header": {
+          "font-family": "'Muli', sans-serif",
+          "font-style": "normal",
+          "font-weight": 800,
+          "font-size": "4.4rem",
+          "line-height": "3.0rem",
+          "color": "{theme.colors.goldenTainoi}"
+        },
+        "description": {
+          "font-family": "'Muli', sans-serif",
+          "font-style": "normal",
+          "font-weight": "normal",
+          "font-size": "1.3rem",
+          "line-height": "1.6rem",
+          "color": "{theme.colors.gravel}"
+        },
+        "introGreeting": {
+          "font-family": "'Muli', sans-serif",
+          "font-style": "normal",
+          "font-weight": 800,
+          "font-size": "2.4rem",
+          "line-height": "3rem",
+          "color": "{theme.colors.gravel}"
+        },
+        "introName": {
+          "font-family": "'Muli', sans-serif",
+          "font-style": "normal",
+          "font-weight": 800,
+          "font-size": "3.2rem",
+          "line-height": "4rem",
+          "color": "{theme.colors.gravel}"
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import { Button } from "@chakra-ui/react";
+import { Button } from "./Button/Button";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         system.
       </p>
       <h2>Components</h2>
-      <Button colorScheme={"blue"}>Chakra Button</Button>
+      <Button className={"test-button"}>Chakra Button</Button>
       <h2>Theme Colors</h2>
       <h2>Theme Typography</h2>
     </>
