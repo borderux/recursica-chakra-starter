@@ -29,7 +29,7 @@
         "properties": {
           "focus": "false,true",
           "hover": "false,true",
-          "sizes": "md,sm,xs,lg",
+          "size": "md,sm,xs,lg",
           "active": "false,true",
           "disabled": "false,true",
           "variant": "solid,ghost,outline,link,unstyled"
