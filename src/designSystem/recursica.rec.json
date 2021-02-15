@@ -1,9 +1,5 @@
 {
   "name": "Recursica Chakra-UI Design System",
-  "theme": {},
-  "icons": {},
-  "components": {},
-  "uniqueId": "3b6f7990-65a8-4cd6-8651-c83ba50ae96b",
   "imports": [
     "theme.rec.json",
     "../Button/button.rec.json"
