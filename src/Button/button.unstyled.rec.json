@@ -3,7 +3,7 @@
     "button": {
       "variants": {
         "rules": {
-          "unstyled=true": {
+          "variant=unstyled": {
             "styles": {
               "display": "inline",
               "background": "none",
