@@ -1,12 +1,117 @@
 {
   "components": {
     "button": {
+      "styles": {
+        "display": "inline-flex",
+        "appearance": "none",
+        "align-items": "center",
+        "justify-content": "center",
+        "transition": "all 250ms ease 0s",
+        "user-select": "none",
+        "position": "relative",
+        "outline": "none",
+        "width": "auto",
+        "line-height": "1.2",
+        "border-radius": "0.375rem",
+        "font-weight": "600",
+        "height": "2.5rem",
+        "min-width": "2.5rem",
+        "font-size": "1rem",
+        "padding-left": "1rem",
+        "padding-right": "1rem",
+        "background": "{theme.colors.blue-500}",
+        "color": "{theme.colors.white}",
+        "white-space": "nowrap",
+        "vertical-align": "middle",
+        "border": "none"
+      },
       "variants": {
+        "properties": {
+          "active": "false,true",
+          "disabled": "false,true",
+          "focus": "false,true",
+          "hover": "false,true",
+          "size": "md,sm,xs,lg",
+          "sizes": "md,sm,xs,lg",
+          "variant": "solid,ghost,outline,link,unstyled"
+        },
         "rules": {
+          "hover=true": {
+            "styles": {
+              "background": "{theme.colors.blue-600}"
+            }
+          },
+          "active=true": {
+            "styles": {
+              "background": "{theme.colors.blue-700}"
+            }
+          },
+          "disabled=true": {
+            "styles": {
+              "opacity": "0.4",
+              "cursor": "not-allowed",
+              "box-shadow": "none"
+            }
+          },
+          "size=sm": {
+            "styles": {
+              "height": "2rem",
+              "min-width": "2rem",
+              "font-size": "0.875rem",
+              "padding-left": "0.75rem",
+              "padding-right": "0.75rem"
+            }
+          },
+          "size=xs": {
+            "styles": {
+              "height": "1.5rem",
+              "min-width": "1.5rem",
+              "font-size": "0.75rem",
+              "padding-left": "0.5rem",
+              "padding-right": "0.5rem"
+            }
+          },
+          "size=lg": {
+            "styles": {
+              "height": "3rem",
+              "min-width": "3rem",
+              "font-size": "1.125rem",
+              "padding-left": "1.5rem",
+              "padding-right": "1.5rem"
+            }
+          },
           "variant=ghost": {
             "styles": {
               "background": "transparent",
               "color": "{theme.colors.blue-600}"
+            }
+          },
+          "variant=outline": {
+            "styles": {
+              "border": "1px solid",
+              "border-color": "{theme.colors.blue-600}",
+              "background": "transparent",
+              "color": "{theme.colors.blue-600}"
+            }
+          },
+          "variant=link": {
+            "styles": {
+              "padding": 0,
+              "height": "auto",
+              "line-height": "normal",
+              "vertical-align": "baseline",
+              "color": "{theme.colors.blue-500}",
+              "background": "transparent"
+            }
+          },
+          "variant=unstyled": {
+            "styles": {
+              "display": "inline",
+              "background": "none",
+              "color": "inherit",
+              "line-height": "inherit",
+              "padding": 0,
+              "margin": 0
             }
           }
         },
@@ -20,9 +125,43 @@
             "styles": {
               "background": "{theme.colors.blue-100}"
             }
+          },
+          "variant=outline,hover=true": {
+            "styles": {
+              "background": "{theme.colors.blue-50}"
+            }
+          },
+          "variant=outline,active=true": {
+            "styles": {
+              "background": "{theme.colors.blue-100}"
+            }
+          },
+          "variant=link,hover=true": {
+            "styles": {
+              "text-decoration": "underline"
+            }
+          },
+          "variant=link,disabled=true,hover=true": {
+            "styles": {
+              "text-decoration": "none"
+            }
+          },
+          "variant=link,hover=true,active=true": {
+            "styles": {
+              "color": "{theme.colors.blue-700}",
+              "text-decoration": "underline"
+            }
+          },
+          "variant=link,disabled=true,hover=true,active=true": {
+            "styles": {
+              "color": "{theme.colors.blue-700}",
+              "text-decoration": "none"
+            }
           }
         }
       }
     }
-  }
+  },
+  "revision": 1,
+  "uniqueId": "2992690e-81ce-4f98-8114-d24a74e3eb8f"
 }

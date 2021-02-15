@@ -28,7 +28,7 @@
     "typography": {
       "format": {
         "unit": "rem",
-        "fontSizeRatio": 1.2
+        "fontSizeRatio": "1.0"
       },
       "styles": {
         "sectionTitle": {
@@ -73,5 +73,7 @@
         }
       }
     }
-  }
+  },
+  "revision": 1,
+  "uniqueId": "0a8223d2-2dac-4be6-80d6-06a5fa793367"
 }
