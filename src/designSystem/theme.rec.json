@@ -1,12 +1,29 @@
 {
   "theme": {
     "colors": {
-      "body": "#FFFFFF",
-      "butterflyBush": "#6C4C97",
       "white": "#FFFFFF",
-      "goldenTainoi": "#FFCC69",
-      "gravel": "#4F4C53",
-      "jacarta": "#452570"
+      "black": "#000000",
+      "transparent": "transparent",
+      "whiteAlpha-50": "rgba(255, 255, 255, 0.04)",
+      "whiteAlpha-100": "rgba(255, 255, 255, 0.06)",
+      "whiteAlpha-200": "rgba(255, 255, 255, 0.08)",
+      "whiteAlpha-300": "rgba(255, 255, 255, 0.16)",
+      "whiteAlpha-400": "rgba(255, 255, 255, 0.24)",
+      "whiteAlpha-500": "rgba(255, 255, 255, 0.36)",
+      "whiteAlpha-600": "rgba(255, 255, 255, 0.48)",
+      "whiteAlpha-700": "rgba(255, 255, 255, 0.64)",
+      "whiteAlpha-800": "rgba(255, 255, 255, 0.80)",
+      "whiteAlpha-900": "rgba(255, 255, 255, 0.92)",
+      "blue-50": "#ebf8ff",
+      "blue-100": "#bee3f8",
+      "blue-200": "#90cdf4",
+      "blue-300": "#63b3ed",
+      "blue-400": "#4299e1",
+      "blue-500": "#3182ce",
+      "blue-600": "#2b6cb0",
+      "blue-700": "#2c5282",
+      "blue-800": "#2a4365",
+      "blue-900": "#1A365D"
     },
     "typography": {
       "format": {

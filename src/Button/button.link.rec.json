@@ -1,0 +1,44 @@
+{
+  "components": {
+    "button": {
+      "variants": {
+        "rules": {
+          "link=true": {
+            "styles": {
+              "padding": 0,
+              "height": "auto",
+              "line-height": "normal",
+              "vertical-align": "baseline",
+              "color": "{theme.colors.blue-500}",
+              "background": "transparent"
+            }
+          }
+        },
+        "variations": {
+          "link=true,hover=true": {
+            "styles": {
+              "text-decoration": "underline"
+            }
+          },
+          "link=true,hover=true,disabled=true": {
+            "styles": {
+              "text-decoration": "none"
+            }
+          },
+          "link=true,active=true,hover=true": {
+            "styles": {
+              "color": "{theme.colors.blue-700}",
+              "text-decoration": "underline"
+            }
+          },
+          "link=true,active=true,hover=true,disabled=true": {
+            "styles": {
+              "color": "{theme.colors.blue-700}",
+              "text-decoration": "none"
+            }
+          }
+        }
+      }
+    }
+  }
+}

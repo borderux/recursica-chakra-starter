@@ -1,0 +1,30 @@
+{
+  "components": {
+    "button": {
+      "variants": {
+        "rules": {
+          "outline=true": {
+            "styles": {
+              "border": "1px solid",
+              "border-color": "{theme.colors.blue-600}",
+              "background": "transparent",
+              "color": "{theme.colors.blue-600}"
+            }
+          }
+        },
+        "variations": {
+          "outline=true,hover=true": {
+            "styles": {
+              "background": "{theme.colors.blue-50}"
+            }
+          },
+          "outline=true,active=true": {
+            "styles": {
+              "background": "{theme.colors.blue-100}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

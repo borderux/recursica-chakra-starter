@@ -1,0 +1,93 @@
+{
+  "components": {
+    "button": {
+      "styles": {
+        "display": "inline-flex",
+        "appearance": "none",
+        "align-items": "center",
+        "justify-content": "center",
+        "transition": "all 250ms ease 0s",
+        "user-select": "none",
+        "position": "relative",
+        "outline": "none",
+        "width": "auto",
+        "line-height": "1.2",
+        "border-radius": "0.375rem",
+        "font-weight": "600",
+        "height": "2.5rem",
+        "min-width": "2.5rem",
+        "font-size": "1rem",
+        "padding-left": "1rem",
+        "padding-right": "1rem",
+        "background": "{theme.colors.blue-500}",
+        "color": "{theme.colors.white}",
+        "white-space": "nowrap",
+        "vertical-align": "middle",
+        "border": "none"
+      },
+      "variants": {
+        "properties": {
+          "focus": "false,true",
+          "hover": "false,true",
+          "sizes": "md,sm,xs,lg",
+          "active": "false,true",
+          "disabled": "false,true",
+          "variant": "solid,ghost,outline,link,unstyled"
+        },
+        "rules": {
+          "hover=true": {
+            "styles": {
+              "background": "{theme.colors.blue-600}"
+            }
+          },
+          "active=true": {
+            "styles": {
+              "background": "{theme.colors.blue-700}"
+            }
+          },
+          "size=sm": {
+            "styles": {
+              "height": "2rem",
+              "min-width": "2rem",
+              "font-size": "0.875rem",
+              "padding-left": "0.75rem",
+              "padding-right": "0.75rem"
+            }
+          },
+          "size=xs": {
+            "styles": {
+              "height": "1.5rem",
+              "min-width": "1.5rem",
+              "font-size": "0.75rem",
+              "padding-left": "0.5rem",
+              "padding-right": "0.5rem"
+            }
+          },
+          "size=lg": {
+            "styles": {
+              "height": "3rem",
+              "min-width": "3rem",
+              "font-size": "1.125rem",
+              "padding-left": "1.5rem",
+              "padding-right": "1.5rem"
+            }
+          },
+          "disabled=true": {
+            "styles": {
+              "opacity": "0.4",
+              "cursor": "not-allowed",
+              "box-shadow": "none"
+            }
+          }
+        },
+        "variations": {}
+      }
+    }
+  },
+  "imports": [
+    "button.ghost.rec.json",
+    "button.outline.rec.json",
+    "button.link.rec.json",
+    "button.unstyled.rec.json"
+  ]
+}

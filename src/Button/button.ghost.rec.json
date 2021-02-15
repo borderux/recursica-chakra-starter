@@ -1,0 +1,28 @@
+{
+  "components": {
+    "button": {
+      "variants": {
+        "rules": {
+          "ghost=true": {
+            "styles": {
+              "background": "transparent",
+              "color": "{theme.colors.blue-600}"
+            }
+          }
+        },
+        "variations": {
+          "ghost=true,hover=true": {
+            "styles": {
+              "background": "{theme.colors.blue-50}"
+            }
+          },
+          "ghost=true,active=true": {
+            "styles": {
+              "background": "{theme.colors.blue-100}"
+            }
+          }
+        }
+      }
+    }
+  }
+}
