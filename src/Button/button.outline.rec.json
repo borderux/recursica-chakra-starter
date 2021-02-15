@@ -3,7 +3,7 @@
     "button": {
       "variants": {
         "rules": {
-          "outline=true": {
+          "variant=outline": {
             "styles": {
               "border": "1px solid",
               "border-color": "{theme.colors.blue-600}",
@@ -13,12 +13,12 @@
           }
         },
         "variations": {
-          "outline=true,hover=true": {
+          "variant=outline,hover=true": {
             "styles": {
               "background": "{theme.colors.blue-50}"
             }
           },
-          "outline=true,active=true": {
+          "variant=outline,active=true": {
             "styles": {
               "background": "{theme.colors.blue-100}"
             }
