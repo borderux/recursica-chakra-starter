@@ -3,7 +3,7 @@
     "button": {
       "variants": {
         "rules": {
-          "link=true": {
+          "variant=link": {
             "styles": {
               "padding": 0,
               "height": "auto",
@@ -15,23 +15,23 @@
           }
         },
         "variations": {
-          "link=true,hover=true": {
+          "variant=link,hover=true": {
             "styles": {
               "text-decoration": "underline"
             }
           },
-          "link=true,hover=true,disabled=true": {
+          "variant=link,hover=true,disabled=true": {
             "styles": {
               "text-decoration": "none"
             }
           },
-          "link=true,active=true,hover=true": {
+          "variant=link,active=true,hover=true": {
             "styles": {
               "color": "{theme.colors.blue-700}",
               "text-decoration": "underline"
             }
           },
-          "link=true,active=true,hover=true,disabled=true": {
+          "variant=link,active=true,hover=true,disabled=true": {
             "styles": {
               "color": "{theme.colors.blue-700}",
               "text-decoration": "none"
