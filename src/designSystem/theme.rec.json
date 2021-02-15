@@ -28,24 +28,16 @@
     "typography": {
       "format": {
         "unit": "rem",
-        "fontSizeRatio": 1.2
+        "fontSizeRatio": 1.1
       },
       "styles": {
-        "body": {
-          "font-family": "'Muli', sans-serif",
-          "font-style": "normal",
-          "font-weight": "normal",
-          "font-size": "1.6rem",
-          "line-height": "2rem",
-          "color": "{theme.colors.body}"
-        },
         "sectionTitle": {
           "font-family": "'Muli', sans-serif",
           "font-style": "normal",
           "font-weight": 800,
           "font-size": "2.1rem",
           "line-height": "2.6rem",
-          "color": "{theme.colors.goldenTainoi}"
+          "color": "{theme.colors.blue-500}"
         },
         "header": {
           "font-family": "'Muli', sans-serif",
@@ -53,7 +45,7 @@
           "font-weight": 800,
           "font-size": "4.4rem",
           "line-height": "3.0rem",
-          "color": "{theme.colors.goldenTainoi}"
+          "color": "{theme.colors.blue-500}"
         },
         "description": {
           "font-family": "'Muli', sans-serif",
@@ -61,7 +53,7 @@
           "font-weight": "normal",
           "font-size": "1.3rem",
           "line-height": "1.6rem",
-          "color": "{theme.colors.gravel}"
+          "color": "{theme.colors.blue-500}"
         },
         "introGreeting": {
           "font-family": "'Muli', sans-serif",
@@ -69,7 +61,7 @@
           "font-weight": 800,
           "font-size": "2.4rem",
           "line-height": "3rem",
-          "color": "{theme.colors.gravel}"
+          "color": "{theme.colors.blue-500}"
         },
         "introName": {
           "font-family": "'Muli', sans-serif",
@@ -77,9 +69,11 @@
           "font-weight": 800,
           "font-size": "3.2rem",
           "line-height": "4rem",
-          "color": "{theme.colors.gravel}"
+          "color": "{theme.colors.blue-500}"
         }
       }
     }
-  }
+  },
+  "revision": 1,
+  "uniqueId": "e213be70-0492-4dd7-801c-dc943c173cda"
 }

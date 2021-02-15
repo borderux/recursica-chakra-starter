@@ -23,13 +23,14 @@
         "color": "{theme.colors.white}",
         "white-space": "nowrap",
         "vertical-align": "middle",
-        "border": "none"
+        "border": "none",
+        "cursor": "pointer"
       },
       "variants": {
         "properties": {
           "focus": "false,true",
           "hover": "false,true",
-          "sizes": "md,sm,xs,lg",
+          "size": "md,sm,xs,lg",
           "active": "false,true",
           "disabled": "false,true",
           "variant": "solid,ghost,outline,link,unstyled"
@@ -84,10 +85,5 @@
       }
     }
   },
-  "imports": [
-    "button.ghost.rec.json",
-    "button.outline.rec.json",
-    "button.link.rec.json",
-    "button.unstyled.rec.json"
-  ]
+  "imports": ["button.ghost.rec.json", "button.outline.rec.json", "button.link.rec.json", "button.unstyled.rec.json"]
 }
