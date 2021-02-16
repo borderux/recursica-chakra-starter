@@ -19,10 +19,6 @@
         "name": "Black",
         "value": "#000000"
       },
-      "transparent": {
-        "name": "Transparent",
-        "value": "transparent"
-      },
       "blue-50": {
         "name": "Blue 50",
         "value": "#ebf8ff"
