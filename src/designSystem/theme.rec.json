@@ -1,76 +1,77 @@
 {
   "theme": {
-    "colors": {
-      "white": "#FFFFFF",
-      "black": "#000000",
-      "transparent": "transparent",
-      "whiteAlpha-50": "rgba(255, 255, 255, 0.04)",
-      "whiteAlpha-100": "rgba(255, 255, 255, 0.06)",
-      "whiteAlpha-200": "rgba(255, 255, 255, 0.08)",
-      "whiteAlpha-300": "rgba(255, 255, 255, 0.16)",
-      "whiteAlpha-400": "rgba(255, 255, 255, 0.24)",
-      "whiteAlpha-500": "rgba(255, 255, 255, 0.36)",
-      "whiteAlpha-600": "rgba(255, 255, 255, 0.48)",
-      "whiteAlpha-700": "rgba(255, 255, 255, 0.64)",
-      "whiteAlpha-800": "rgba(255, 255, 255, 0.80)",
-      "whiteAlpha-900": "rgba(255, 255, 255, 0.92)",
-      "blue-50": "#ebf8ff",
-      "blue-100": "#bee3f8",
-      "blue-200": "#90cdf4",
-      "blue-300": "#63b3ed",
-      "blue-400": "#4299e1",
-      "blue-500": "#3182ce",
-      "blue-600": "#2b6cb0",
-      "blue-700": "#2c5282",
-      "blue-800": "#2a4365",
-      "blue-900": "#1A365D"
-    },
-    "typography": {
-      "format": {
-        "unit": "rem",
-        "fontSizeRatio": 1.1
+    "config": {
+      "element": {
+        "unit": "em",
+        "ratio": 1.4
       },
-      "styles": {
-        "sectionTitle": {
-          "font-family": "'Muli', sans-serif",
-          "font-style": "normal",
-          "font-weight": 800,
-          "font-size": "2.1rem",
-          "line-height": "2.6rem",
-          "color": "{theme.colors.blue-500}"
-        },
-        "header": {
-          "font-family": "'Muli', sans-serif",
-          "font-style": "normal",
-          "font-weight": 800,
-          "font-size": "4.4rem",
-          "line-height": "3.0rem",
-          "color": "{theme.colors.blue-500}"
-        },
-        "description": {
-          "font-family": "'Muli', sans-serif",
-          "font-style": "normal",
-          "font-weight": "normal",
-          "font-size": "1.3rem",
-          "line-height": "1.6rem",
-          "color": "{theme.colors.blue-500}"
-        },
-        "introGreeting": {
-          "font-family": "'Muli', sans-serif",
-          "font-style": "normal",
-          "font-weight": 800,
-          "font-size": "2.4rem",
-          "line-height": "3rem",
-          "color": "{theme.colors.blue-500}"
-        },
-        "introName": {
-          "font-family": "'Muli', sans-serif",
-          "font-style": "normal",
-          "font-weight": 800,
-          "font-size": "3.2rem",
-          "line-height": "4rem",
-          "color": "{theme.colors.blue-500}"
-        }
+      "text": {
+        "unit": "em",
+        "ratio": 1.4
+      }
+    },
+    "colors": {
+      "white": {
+        "name": "White",
+        "value": "#FFFFFF"
+      },
+      "black": {
+        "name": "Black",
+        "value": "#000000"
+      },
+      "transparent": {
+        "name": "Transparent",
+        "value": "transparent"
+      },
+      "blue-50": {
+        "name": "Blue 50",
+        "value": "#ebf8ff"
+      },
+      "blue-100": {
+        "name": "Blue 100",
+        "value": "#bee3f8"
+      },
+      "blue-200": {
+        "name": "Blue 200",
+        "value": "#90cdf4"
+      },
+      "blue-300": {
+        "name": "Blue 300",
+        "value": "#63b3ed"
+      },
+      "blue-400": {
+        "name": "Blue 400",
+        "value": "#4299e1"
+      },
+      "blue-500": {
+        "name": "Blue 500",
+        "value": "#3182ce"
+      },
+      "blue-600": {
+        "name": "Blue 600",
+        "value": "#2b6cb0"
+      },
+      "blue-700": {
+        "name": "Blue 700",
+        "value": "#2c5282"
+      },
+      "blue-800": {
+        "name": "Blue 800",
+        "value": "#2a4365"
+      },
+      "blue-900": {
+        "name": "Blue 900",
+        "value": "#1A365D"
+      }
+    },
+    "fonts": {
+      "roboto": {
+        "name": "Roboto",
+        "value": "Roboto, serif"
+      },
+      "opensans": {
+        "name": "Open Sans",
+        "value": "'Open Sans', san-serif"
       }
     }
   }
