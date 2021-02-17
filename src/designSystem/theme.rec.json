@@ -2,12 +2,12 @@
   "theme": {
     "config": {
       "element": {
-        "unit": "em",
-        "ratio": 1.4
+        "unit": "rem",
+        "ratio": 1.6
       },
       "text": {
-        "unit": "em",
-        "ratio": 1.4
+        "unit": "rem",
+        "ratio": 1.6
       }
     },
     "colors": {
