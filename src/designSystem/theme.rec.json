@@ -61,7 +61,7 @@
       }
     },
     "fonts": {
-      "roboto": {
+      "inter": {
         "name": "Inter",
         "value": "Inter, sans-serif",
         "default": "true"
