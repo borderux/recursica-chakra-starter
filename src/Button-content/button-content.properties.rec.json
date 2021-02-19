@@ -1,0 +1,13 @@
+{
+    "components": {
+        "button-content": {
+            "variants": {
+                "properties": {
+                    "left-icon": "false,true",
+                    "right-icon": "false,true",
+                    "label": "true,false"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "components": {
+      "button-content": {
+        "variants": {
+          "rules": {
+            "left-icon=true": {
+              "styles": {
+                "display": "block"
+              }
+            },
+            "label=false": {
+              "styles": {
+                "display": "none"
+              }
+            },
+            "right-icon=true": {
+              "styles": {
+                "display": "block"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

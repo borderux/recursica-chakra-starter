@@ -1,0 +1,32 @@
+{
+  "components": {
+    "button-content": {
+      "children": {
+        "left-icon": {
+          "name": "Left Icon",
+          "inherits": "{icons.AddIcon}",
+          "styles": {
+            "display": "none",
+            "fill": "{theme.colors.black}"
+          }
+        },
+        "text": {
+          "label": "Button"
+        },
+        "right-icon": {
+          "name": "Right Icon",
+          "inherits": "{icons.AddIcon}",
+          "styles": {
+            "display": "none",
+            "fill": "{theme.colors.black}"
+          }
+        }
+      }
+    }
+  },
+  "imports": [
+    "button-content.variations.rec.json",
+    "button-content.rules.rec.json",
+    "button-content.properties.rec.json"
+  ]
+}
