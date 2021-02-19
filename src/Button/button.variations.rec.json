@@ -1,0 +1,52 @@
+{
+    "components": {
+        "button": {
+            "variants": {
+                "variations": {
+                    "variant=outline,hover=true": {
+                        "styles": {
+                            "background": "{theme.colors.blue-50}"
+                        }
+                    },
+                    "variant=outline,active=true": {
+                        "styles": {
+                            "background": "{theme.colors.blue-100}"
+                        }
+                    },
+                    "variant=link,hover=true": {
+                        "styles": {
+                            "text-decoration": "underline"
+                        }
+                    },
+                    "variant=link,hover=true,disabled=true": {
+                        "styles": {
+                            "text-decoration": "none"
+                        }
+                    },
+                    "variant=link,active=true,hover=true": {
+                        "styles": {
+                            "color": "{theme.colors.blue-700}",
+                            "text-decoration": "underline"
+                        }
+                    },
+                    "variant=link,active=true,hover=true,disabled=true": {
+                        "styles": {
+                            "color": "{theme.colors.blue-700}",
+                            "text-decoration": "none"
+                        }
+                    },
+                    "variant=ghost,hover=true": {
+                        "styles": {
+                            "background": "{theme.colors.blue-50}"
+                        }
+                    },
+                    "variant=ghost,active=true": {
+                        "styles": {
+                            "background": "{theme.colors.blue-100}"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

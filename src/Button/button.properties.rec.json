@@ -1,0 +1,16 @@
+{
+  "components": {
+    "button": {
+      "variants": {
+        "properties": {
+          "focus": "false,true",
+          "hover": "false,true",
+          "size": "md,sm,xs,lg",
+          "active": "false,true",
+          "disabled": "false,true",
+          "variant": "solid,ghost,outline,link,unstyled"
+        }
+      }
+    }
+  }
+}

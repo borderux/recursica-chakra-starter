@@ -1,10 +1,45 @@
 {
   "name": "Recursica Chakra-UI Design System",
   "icons": {
-    "plusSquareIcon": {
-      "name": "PlusSquareIcon",
+    "AddIcon": {
+      "name": "AddIcon",
       "type": "svg",
-      "path": "./icons/plusSquare.svg"
+      "path": "./icons/AddIcon.svg"
+    },
+    "ArrowBackIcon": {
+      "name": "ArrowBackIcon",
+      "type": "svg",
+      "path": "./icons/ArrowBackIcon.svg"
+    },
+    "ArrowDownIcon": {
+      "name": "ArrowDownIcon",
+      "type": "svg",
+      "path": "./icons/ArrowDownIcon.svg"
+    },
+    "ArrowForwardIcon": {
+      "name": "ArrowForwardIcon",
+      "type": "svg",
+      "path": "./icons/ArrowForwardIcon.svg"
+    },
+    "ArrowLeftIcon": {
+      "name": "ArrowLeftIcon",
+      "type": "svg",
+      "path": "./icons/ArrowLeftIcon.svg"
+    },
+    "ArrowRightIcon": {
+      "name": "ArrowRightIcon",
+      "type": "svg",
+      "path": "./icons/ArrowRightIcon.svg"
+    },
+    "ArrowUpIcon": {
+      "name": "ArrowUpIcon",
+      "type": "svg",
+      "path": "./icons/ArrowUpIcon.svg"
+    },
+    "ArrowUpDownIcon": {
+      "name": "ArrowUpDownIcon",
+      "type": "svg",
+      "path": "./icons/ArrowUpDownIcon.svg"
     }
   },
   "imports": ["theme.rec.json", "../Button/button.rec.json"]
