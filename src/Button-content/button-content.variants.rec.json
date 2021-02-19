@@ -1,0 +1,33 @@
+{
+    "components": {
+      "button-content": {
+        "variants": {
+          "variations": {
+            "variant=link,hover=true": {
+              "styles": {
+                "text-decoration": "underline"
+              }
+            },
+            "variant=link,hover=true,disabled=true": {
+              "styles": {
+                "text-decoration": "none"
+              }
+            },
+            "variant=link,active=true,hover=true": {
+              "styles": {
+                "color": "{theme.colors.blue-700}",
+                "text-decoration": "underline"
+              }
+            },
+            "variant=link,active=true,hover=true,disabled=true": {
+              "styles": {
+                "color": "{theme.colors.blue-700}",
+                "text-decoration": "none"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

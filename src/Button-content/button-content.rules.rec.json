@@ -1,0 +1,21 @@
+{
+    "components": {
+      "button-content": {
+        "variants": {
+          "rules": {
+            "variant=link": {
+              "styles": {
+                "padding": 0,
+                "height": "auto",
+                "line-height": "normal",
+                "vertical-align": "baseline",
+                "color": "{theme.colors.blue-500}",
+                "background": "transparent"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
