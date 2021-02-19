@@ -1,6 +1,7 @@
 {
   "components": {
     "button": {
+      "label": "Button",
       "styles": {
         "display": "inline-flex",
         "appearance": "none",
