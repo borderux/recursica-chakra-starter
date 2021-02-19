@@ -42,5 +42,5 @@
       "path": "./icons/ArrowUpDownIcon.svg"
     }
   },
-  "imports": ["theme.rec.json", "../Button/button.rec.json", "../buttonContent/button-content.rec.json"]
+  "imports": ["theme.rec.json", "../Button/button.rec.json", "../buttonContent/buttonContent.rec.json"]
 }
