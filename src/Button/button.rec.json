@@ -27,8 +27,9 @@
         "cursor": "pointer"
       },
       "children": {
-        "button-content": {
-          "inherits": "{components.button-content}"
+        "buttonContent": {
+          "name": "Button Content",
+          "inherits": "{components.buttonContent}"
         }
       }
     }
