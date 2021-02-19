@@ -5,6 +5,11 @@
       "name": "PlusSquareIcon",
       "type": "svg",
       "path": "./icons/plusSquare.svg"
+    },
+    "addIcon": {
+      "name": "AddIcon",
+      "type": "svg",
+      "path": "./icons/add.svg"
     }
   },
   "imports": ["theme.rec.json", "../Button/button.rec.json"]
