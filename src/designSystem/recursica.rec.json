@@ -1,7 +1,11 @@
 {
   "name": "Recursica Chakra-UI Design System",
-  "imports": [
-    "theme.rec.json",
-    "../Button/button.rec.json"
-  ]
+  "icons": {
+    "plusSquareIcon": {
+      "name": "PlusSquareIcon",
+      "type": "svg",
+      "path": "./icons/plusSquare.svg"
+    }
+  },
+  "imports": ["theme.rec.json", "../Button/button.rec.json"]
 }
