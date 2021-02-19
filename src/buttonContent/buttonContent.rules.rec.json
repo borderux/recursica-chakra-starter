@@ -1,6 +1,6 @@
 {
     "components": {
-      "button-content": {
+      "buttonContent": {
         "variants": {
           "rules": {
             "left-icon=true": {

@@ -1,6 +1,6 @@
 {
     "components": {
-        "button-content": {
+        "buttonContent": {
             "variants": {
                 "properties": {
                     "left-icon": "false,true",

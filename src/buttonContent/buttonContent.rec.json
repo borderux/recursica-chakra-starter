@@ -1,6 +1,6 @@
 {
   "components": {
-    "button-content": {
+    "buttonContent": {
       "children": {
         "left-icon": {
           "name": "Left Icon",
@@ -25,8 +25,8 @@
     }
   },
   "imports": [
-    "button-content.variations.rec.json",
-    "button-content.rules.rec.json",
-    "button-content.properties.rec.json"
+    "buttonContent.variations.rec.json",
+    "buttonContent.rules.rec.json",
+    "buttonContent.properties.rec.json"
   ]
 }
