@@ -25,6 +25,12 @@
         "vertical-align": "middle",
         "border": "none",
         "cursor": "pointer"
+      },
+      "children": {
+        "buttonContent": {
+          "name": "Button Content",
+          "inherits": "{components.buttonContent}"
+        }
       }
     }
   },
