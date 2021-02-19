@@ -3,12 +3,9 @@
         "button-content": {
             "variants": {
                 "properties": {
-                    "focus": "false,true",
-                    "hover": "false,true",
-                    "size": "md,sm,xs,lg",
-                    "active": "false,true",
-                    "disabled": "false,true",
-                    "variant": "solid,ghost,outline,link,unstyled"
+                    "left-icon": "false,true",
+                    "right-icon": "false,true",
+                    "label": "true,false"
                 }
             }
         }

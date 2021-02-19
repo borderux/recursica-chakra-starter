@@ -3,14 +3,19 @@
       "button-content": {
         "variants": {
           "rules": {
-            "variant=link": {
+            "left-icon=true": {
               "styles": {
-                "padding": 0,
-                "height": "auto",
-                "line-height": "normal",
-                "vertical-align": "baseline",
-                "color": "{theme.colors.blue-500}",
-                "background": "transparent"
+                "display": "block"
+              }
+            },
+            "label=false": {
+              "styles": {
+                "display": "none"
+              }
+            },
+            "right-icon=true": {
+              "styles": {
+                "display": "block"
               }
             }
           }

@@ -1,7 +1,6 @@
 {
   "components": {
     "button": {
-      "label": "Button",
       "styles": {
         "display": "inline-flex",
         "appearance": "none",
@@ -26,6 +25,11 @@
         "vertical-align": "middle",
         "border": "none",
         "cursor": "pointer"
+      },
+      "children": {
+        "button-content": {
+          "inherits": "{components.button-content}"
+        }
       }
     }
   },
