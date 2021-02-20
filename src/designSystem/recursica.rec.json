@@ -40,7 +40,261 @@
       "name": "ArrowUpDownIcon",
       "type": "svg",
       "path": "./icons/ArrowUpDownIcon.svg"
+    },
+    "AtSignIcon": {
+      "name": "AtSignIcon",
+      "type": "svg",
+      "path": "./icons/AtSignIcon.svg"
+    },
+    "AttachmentIcon": {
+      "name": "AttachmentIcon",
+      "type": "svg",
+      "path": "./icons/AttachmentIcon.svg"
+    },
+    "BellIcon": {
+      "name": "BellIcon",
+      "type": "svg",
+      "path": "./icons/BellIcon.svg"
+    },
+    "CalendarIcon": {
+      "name": "CalendarIcon",
+      "type": "svg",
+      "path": "./icons/CalendarIcon.svg"
+    },
+    "ChatIcon": {
+      "name": "ChatIcon",
+      "type": "svg",
+      "path": "./icons/ChatIcon.svg"
+    },
+    "CheckIcon": {
+      "name": "CheckIcon",
+      "type": "svg",
+      "path": "./icons/CheckIcon.svg"
+    },
+    "CheckCircleIcon": {
+      "name": "CheckCircleIcon",
+      "type": "svg",
+      "path": "./icons/CheckCircleIcon.svg"
+    },
+    "ChevronDownIcon": {
+      "name": "ChevronDownIcon",
+      "type": "svg",
+      "path": "./icons/ChevronDownIcon.svg"
+    },
+    "ChevronLeftIcon": {
+      "name": "ChevronLeftIcon",
+      "type": "svg",
+      "path": "./icons/ChevronLeftIcon.svg"
+    },
+    "ChevronRightIcon": {
+      "name": "ChevronRightIcon",
+      "type": "svg",
+      "path": "./icons/ChevronRightIcon.svg"
+    },
+    "ChevronUpIcon": {
+      "name": "ChevronUpIcon",
+      "type": "svg",
+      "path": "./icons/ChevronUpIcon.svg"
+    },
+    "CloseIcon": {
+      "name": "CloseIcon",
+      "type": "svg",
+      "path": "./icons/CloseIcon.svg"
+    },
+    "CopyIcon": {
+      "name": "CopyIcon",
+      "type": "svg",
+      "path": "./icons/CopyIcon.svg"
+    },
+    "DeleteIcon": {
+      "name": "DeleteIcon",
+      "type": "svg",
+      "path": "./icons/DeleteIcon.svg"
+    },
+    "DownloadIcon": {
+      "name": "DownloadIcon",
+      "type": "svg",
+      "path": "./icons/DownloadIcon.svg"
+    },
+    "DragHandleIcon": {
+      "name": "DragHandleIcon",
+      "type": "svg",
+      "path": "./icons/DragHandleIcon.svg"
+    },
+    "EditIcon": {
+      "name": "EditIcon",
+      "type": "svg",
+      "path": "./icons/EditIcon.svg"
+    },
+    "EmailIcon": {
+      "name": "EmailIcon",
+      "type": "svg",
+      "path": "./icons/EmailIcon.svg"
+    },
+    "ExternalLinkIcon": {
+      "name": "ExternalLinkIcon",
+      "type": "svg",
+      "path": "./icons/ExternalLinkIcon.svg"
+    },
+    "HamburgerIcon": {
+      "name": "HamburgerIcon",
+      "type": "svg",
+      "path": "./icons/HamburgerIcon.svg"
+    },
+    "InfoIcon": {
+      "name": "InfoIcon",
+      "type": "svg",
+      "path": "./icons/InfoIcon.svg"
+    },
+    "InfoOutlineIcon": {
+      "name": "InfoOutlineIcon",
+      "type": "svg",
+      "path": "./icons/InfoOutlineIcon.svg"
+    },
+    "LinkIcon": {
+      "name": "LinkIcon",
+      "type": "svg",
+      "path": "./icons/LinkIcon.svg"
+    },
+    "LockIcon": {
+      "name": "LockIcon",
+      "type": "svg",
+      "path": "./icons/LockIcon.svg"
+    },
+    "MinusIcon": {
+      "name": "MinusIcon",
+      "type": "svg",
+      "path": "./icons/MinusIcon.svg"
+    },
+    "MoonIcon": {
+      "name": "MoonIcon",
+      "type": "svg",
+      "path": "./icons/MoonIcon.svg"
+    },
+    "NotAllowedIcon": {
+      "name": "NotAllowedIcon",
+      "type": "svg",
+      "path": "./icons/NotAllowedIcon.svg"
+    },
+    "PhoneIcon": {
+      "name": "PhoneIcon",
+      "type": "svg",
+      "path": "./icons/PhoneIcon.svg"
+    },
+    "PlusSquareIcon": {
+      "name": "PlusSquareIcon",
+      "type": "svg",
+      "path": "./icons/PlusSquareIcon.svg"
+    },
+    "QuestionIcon": {
+      "name": "QuestionIcon",
+      "type": "svg",
+      "path": "./icons/QuestionIcon.svg"
+    },
+    "QuestionOutlineIcon": {
+      "name": "QuestionOutlineIcon",
+      "type": "svg",
+      "path": "./icons/QuestionOutlineIcon.svg"
+    },
+    "RepeatIcon": {
+      "name": "RepeatIcon",
+      "type": "svg",
+      "path": "./icons/RepeatIcon.svg"
+    },
+    "RepeatClockIcon": {
+      "name": "RepeatClockIcon",
+      "type": "svg",
+      "path": "./icons/RepeatClockIcon.svg"
+    },
+    "SearchIcon": {
+      "name": "SearchIcon",
+      "type": "svg",
+      "path": "./icons/SearchIcon.svg"
+    },
+    "Search2Icon": {
+      "name": "Search2Icon",
+      "type": "svg",
+      "path": "./icons/Search2Icon.svg"
+    },
+    "SettingsIcon": {
+      "name": "SettingsIcon",
+      "type": "svg",
+      "path": "./icons/SettingsIcon.svg"
+    },
+    "SmallAddIcon": {
+      "name": "SmallAddIcon",
+      "type": "svg",
+      "path": "./icons/SmallAddIcon.svg"
+    },
+    "SmallCloseIcon": {
+      "name": "SmallCloseIcon",
+      "type": "svg",
+      "path": "./icons/SmallCloseIcon.svg"
+    },
+    "SpinnerIcon": {
+      "name": "SpinnerIcon",
+      "type": "svg",
+      "path": "./icons/SpinnerIcon.svg"
+    },
+    "StarIcon": {
+      "name": "StarIcon",
+      "type": "svg",
+      "path": "./icons/StarIcon.svg"
+    },
+    "SunIcon": {
+      "name": "SunIcon",
+      "type": "svg",
+      "path": "./icons/SunIcon.svg"
+    },
+    "TimeIcon": {
+      "name": "TimeIcon",
+      "type": "svg",
+      "path": "./icons/TimeIcon.svg"
+    },
+    "TriangleDownIcon": {
+      "name": "TriangleDownIcon",
+      "type": "svg",
+      "path": "./icons/TriangleDownIcon.svg"
+    },
+    "TriangleUpIcon": {
+      "name": "TriangleUpIcon",
+      "type": "svg",
+      "path": "./icons/TriangleUpIcon.svg"
+    },
+    "UnlockIcon": {
+      "name": "UnlockIcon",
+      "type": "svg",
+      "path": "./icons/UnlockIcon.svg"
+    },
+    "UpDownIcon": {
+      "name": "UpDownIcon",
+      "type": "svg",
+      "path": "./icons/UpDownIcon.svg"
+    },
+    "ViewIcon": {
+      "name": "ViewIcon",
+      "type": "svg",
+      "path": "./icons/ViewIcon.svg"
+    },
+    "ViewOffIcon": {
+      "name": "ViewOffIcon",
+      "type": "svg",
+      "path": "./icons/ViewOffIcon.svg"
+    },
+    "WarningIcon": {
+      "name": "WarningIcon",
+      "type": "svg",
+      "path": "./icons/WarningIcon.svg"
+    },
+    "WarningTwoIcon": {
+      "name": "WarningTwoIcon",
+      "type": "svg",
+      "path": "./icons/WarningTwoIcon.svg"
     }
   },
-  "imports": ["theme.rec.json", "../Button/button.rec.json", "../buttonContent/buttonContent.rec.json"]
+  "imports": [
+    "theme.rec.json",
+    "../Button/button.rec.json",
+    "../buttonContent/buttonContent.rec.json"
+  ]
 }
