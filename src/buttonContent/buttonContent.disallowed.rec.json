@@ -1,0 +1,14 @@
+{
+    "components": {
+        "buttonContent": {
+            "variants": {
+                "disallowed": {
+                    "label=false,lefticon=false,righticon=true,spinner=true": {},
+                    "label=false,lefticon=true,righticon=false,spinner=true": {}
+                }
+            }
+        }
+    }
+}
+
+

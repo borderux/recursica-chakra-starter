@@ -29,7 +29,10 @@
       "children": {
         "buttonContent": {
           "name": "Button Content",
-          "inherits": "{components.buttonContent}"
+          "inherits": "{components.buttonContent}",
+          "styles": {
+            "color": "{theme.colors.white}"
+          }
         }
       }
     }

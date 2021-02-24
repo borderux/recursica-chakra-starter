@@ -42,6 +42,7 @@
   "imports": [
     "buttonContent.variations.rec.json",
     "buttonContent.rules.rec.json",
-    "buttonContent.properties.rec.json"
+    "buttonContent.properties.rec.json",
+    "buttonContent.disallowed.rec.json"
   ]
 }
