@@ -5,7 +5,8 @@
                 "properties": {
                     "left-icon": "false,true",
                     "right-icon": "false,true",
-                    "label": "true,false"
+                    "label": "true,false",
+                    "spinner": "false,true"
                 }
             }
         }

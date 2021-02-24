@@ -3,7 +3,7 @@
       "buttonContent": {
         "variants": {
           "rules": {
-            "left-icon=true": {
+            "leftIcon=true": {
               "styles": {
                 "display": "block"
               }
@@ -13,7 +13,12 @@
                 "display": "none"
               }
             },
-            "right-icon=true": {
+            "rightIcon=true": {
+              "styles": {
+                "display": "block"
+              }
+            },
+            "spinner=true": {
               "styles": {
                 "display": "block"
               }

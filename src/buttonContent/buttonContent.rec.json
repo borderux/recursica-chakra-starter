@@ -2,24 +2,38 @@
   "components": {
     "buttonContent": {
       "name": "Button Content",
+      "styles": {
+        "display": "inline-flex"
+      },
       "children": {
-        "left-icon": {
+        "leftIcon": {
           "name": "Left Icon",
           "inherits": "{icons.AddIcon}",
           "styles": {
             "display": "none",
-            "fill": "{theme.colors.black}"
+            "fill": "{theme.colors.white}",
+            "height": "1em",
+            "width": "1em"
           }
         },
-        "text": {
+        "label": {
           "label": "Button"
         },
-        "right-icon": {
+        "rightIcon": {
           "name": "Right Icon",
           "inherits": "{icons.AddIcon}",
           "styles": {
             "display": "none",
-            "fill": "{theme.colors.black}"
+            "fill": "{theme.colors.white}",
+            "height": "1em",
+            "width": "1em"
+          }
+        },
+        "spinner": {
+          "inherits": "{icons.SpinnerIcon}",
+          "styles": {
+            "display": "none",
+            "fill": "{theme.colors.white}"
           }
         }
       }

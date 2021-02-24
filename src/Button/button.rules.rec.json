@@ -80,6 +80,11 @@
                             "background": "transparent",
                             "color": "{theme.colors.blue-600}"
                         }
+                    },
+                    "isLoading=true": {
+                        "styles": {
+                            "opacity": "0.4"
+                        }
                     }
                 }
             }
