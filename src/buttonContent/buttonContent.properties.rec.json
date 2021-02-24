@@ -3,8 +3,8 @@
         "buttonContent": {
             "variants": {
                 "properties": {
-                    "left-icon": "false,true",
-                    "right-icon": "false,true",
+                    "leftIcon": "false,true",
+                    "rightIcon": "false,true",
                     "label": "true,false",
                     "spinner": "false,true"
                 }
