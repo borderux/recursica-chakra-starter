@@ -4,23 +4,39 @@
         "variants": {
           "rules": {
             "leftIcon=true": {
-              "styles": {
-                "display": "block"
+              "children": {
+                "leftIcon": {
+                  "styles": {
+                    "display": "block"
+                  }
+                }
               }
             },
             "label=false": {
-              "styles": {
-                "display": "none"
+              "children": {
+                "label": {
+                  "styles": {
+                    "display": "none"
+                  }
+                }
               }
             },
             "rightIcon=true": {
-              "styles": {
-                "display": "block"
+              "children": {
+                "rightIcon": {
+                  "styles": {
+                    "display": "block"
+                  }
+                }
               }
             },
             "spinner=true": {
-              "styles": {
-                "display": "block"
+              "children": {
+                "spinner": {
+                  "styles": {
+                    "display": "block"
+                  }
+                }
               }
             }
           }
