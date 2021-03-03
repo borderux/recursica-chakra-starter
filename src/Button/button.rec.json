@@ -19,7 +19,7 @@
         "font-size": "1rem",
         "padding-left": "1rem",
         "padding-right": "1rem",
-        "background": "{theme.colors.blue-500}",
+        "background": "{theme.colors.gray500}",
         "color": "{theme.colors.white}",
         "white-space": "nowrap",
         "vertical-align": "middle",
