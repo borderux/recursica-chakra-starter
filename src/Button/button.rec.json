@@ -27,15 +27,49 @@
         "cursor": "pointer"
       },
       "children": {
-        "buttonContent": {
-          "name": "Button Content",
-          "inherits": "{components.buttonContent}",
+        "leftIcon": {
+          "name": "Left Icon",
+          "inherits": "{icons.AddIcon}",
           "styles": {
-            "color": "{theme.colors.white}"
+            "display": "none",
+            "fill": "{theme.colors.white}",
+            "height": "1em",
+            "width": "1em"
+          }
+        },
+        "label": {
+          "name": "Label",
+          "label": "Button"
+        },
+        "loadingText": {
+          "name": "Loading Text",
+          "label": "",
+          "styles": {
+            "display": "none"
+          }
+        },
+        "rightIcon": {
+          "name": "Right Icon",
+          "inherits": "{icons.AddIcon}",
+          "styles": {
+            "display": "none",
+            "fill": "{theme.colors.white}",
+            "height": "1em",
+            "width": "1em"
+          }
+        },
+        "spinner": {
+          "name": "Spinner",
+          "inherits": "{icons.SpinnerIcon}",
+          "styles": {
+            "display": "none",
+            "fill": "{theme.colors.white}",
+            "height": "1em",
+            "width": "1em"
           }
         }
       }
     }
   },
-  "imports": ["button.properties.rec.json", "button.rules.rec.json", "button.variations.rec.json"]
+  "imports": ["button.properties.rec.json", "button.rules.rec.json", "button.variations.rec.json", "button.disallowed.rec.json"]
 }
