@@ -1,0 +1,17 @@
+{
+  "components": {
+    "button": {
+      "variants": {
+        "disallowed": {
+          "leftIcon=true,rightIcon=true": {},
+          "isDisabled=false,spinner=true": {},
+          "leftIcon=true,spinner=true": {},
+          "rightIcon=true,spinner=true": {},
+          "leftIcon=true,isLoading=true": {},
+          "rightIcon=true,isLoading=true": {},
+          "spinner=false,isLoading=true": {}
+        }
+      }
+    }
+  }
+}

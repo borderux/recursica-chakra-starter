@@ -2,14 +2,52 @@
   "components": {
     "button": {
       "variants": {
+        "pseudoProperties": {
+          "focus": "false",
+          "hover": "false",
+          "active": "false"
+        },
         "properties": {
-          "focus": "false,true",
-          "hover": "false,true",
-          "size": "md,sm,xs,lg",
-          "active": "false,true",
-          "disabled": "false,true",
-          "variant": "solid,ghost,outline,link,unstyled",
-          "isLoading": "false,true"
+          "colorScheme":{
+            "default": "gray",
+            "values":"gray"
+          },
+          "iconSpacing":{
+            "default": "SystemProps['marginRight']",
+            "values":"SystemProps['marginRight']"
+          },
+          "isDisabled":{
+            "default": "false",
+            "values":"true, false"
+          },
+          "isFullWidth":{
+            "default": "false",
+            "values":"true, false"
+          },
+          "isLoading":{
+            "default": "false",
+            "values":"true, false"
+          },
+          "leftIcon":{
+            "default": "false",
+            "values":"true, false"
+          },
+          "rightIcon":{
+            "default": "false",
+            "values":"true, false"
+          },
+          "size":{
+            "default": "md",
+            "values":"xs, sm, md, lg"
+          },
+          "spinner":{
+            "default": "false",
+            "values":"true, false"
+          },
+          "variant":{
+            "default": "solid",
+            "values":"solid, ghost, outline, link, unstyled"
+          }
         }
       }
     }
