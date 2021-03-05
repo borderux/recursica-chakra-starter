@@ -4,7 +4,7 @@
       "variants": {
         "disallowed": {
           "leftIcon=true,rightIcon=true": {},
-          "isDisabled=false,spinner=true": {},
+          "isDisabled=false,spinner=true,isLoading=false": {},
           "leftIcon=true,spinner=true": {},
           "rightIcon=true,spinner=true": {},
           "leftIcon=true,isLoading=true": {},

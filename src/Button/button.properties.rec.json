@@ -8,45 +8,45 @@
           "active": "false"
         },
         "properties": {
-          "colorScheme":{
+          "colorScheme": {
             "default": "gray",
-            "values":"gray"
+            "values": "gray"
           },
-          "iconSpacing":{
+          "iconSpacing": {
             "default": "SystemProps['marginRight']",
-            "values":"SystemProps['marginRight']"
+            "values": "SystemProps['marginRight']"
           },
-          "isDisabled":{
+          "isDisabled": {
             "default": "false",
-            "values":"true, false"
+            "values": "true, false"
           },
-          "isFullWidth":{
+          "isFullWidth": {
             "default": "false",
-            "values":"true, false"
+            "values": "true, false"
           },
-          "isLoading":{
+          "isLoading": {
             "default": "false",
-            "values":"true, false"
+            "values": "true, false"
           },
-          "leftIcon":{
+          "leftIcon": {
             "default": "false",
-            "values":"true, false"
+            "values": "true, false"
           },
-          "rightIcon":{
+          "rightIcon": {
             "default": "false",
-            "values":"true, false"
+            "values": "true, false"
           },
-          "size":{
+          "size": {
             "default": "md",
-            "values":"xs, sm, md, lg"
+            "values": "xs, sm, md, lg"
           },
-          "spinner":{
+          "spinner": {
             "default": "false",
-            "values":"true, false"
+            "values": "true, false"
           },
-          "variant":{
+          "variant": {
             "default": "solid",
-            "values":"solid, ghost, outline, link, unstyled"
+            "values": "solid, ghost, outline, link, unstyled"
           }
         }
       }

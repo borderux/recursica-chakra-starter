@@ -28,7 +28,17 @@
       "children": {
         "leftIcon": {
           "name": "Left Icon",
-          "inherits": "{icons.AddIcon}",
+          "inherits": "{icons.menu}",
+          "styles": {
+            "display": "none",
+            "fill": "{theme.colors.white}",
+            "height": "1em",
+            "width": "1em"
+          }
+        },
+        "spinner": {
+          "name": "Spinner",
+          "inherits": "{icons.search}",
           "styles": {
             "display": "none",
             "fill": "{theme.colors.white}",
@@ -42,24 +52,14 @@
         },
         "loadingText": {
           "name": "Loading Text",
-          "label": "",
+          "label": " ",
           "styles": {
             "display": "none"
           }
         },
         "rightIcon": {
           "name": "Right Icon",
-          "inherits": "{icons.AddIcon}",
-          "styles": {
-            "display": "none",
-            "fill": "{theme.colors.white}",
-            "height": "1em",
-            "width": "1em"
-          }
-        },
-        "spinner": {
-          "name": "Spinner",
-          "inherits": "{icons.SpinnerIcon}",
+          "inherits": "{icons.menu}",
           "styles": {
             "display": "none",
             "fill": "{theme.colors.white}",

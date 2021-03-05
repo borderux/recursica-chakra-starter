@@ -2,114 +2,123 @@
 	"components": {
 		"button": {
 			"variants": {
-				"rules": {
-					"hover=true": {
-						"styles": {
-							"background": "{theme.colors.gray600}"
-						}
-					},
-					"active=true": {
-						"styles": {
-							"background": "{theme.colors.gray700}"
-						}
-					},
-					"focus=true": {
-						"styles": {
-							"background": "{theme.colors.gray900}"
-						}
-					},
-					"isDisabled=true": {
-						"styles": {
-							"opacity": "0.4",
-							"cursor": "not-allowed",
-							"box-shadow": "none"
-						}
-					},
-					"isLoading=true": {
-						"styles": {
-							"opacity": "0.4"
-						}
-					},
-					"leftIcon=true": {
-						"children": {
-							"leftIcon": {
-								"styles": {
-									"display": "block"
-								}
-							}
-						}
-					},
-					"rightIcon=true": {
-						"children": {
-							"rightIcon": {
-								"styles": {
-									"display": "block"
-								}
-							}
-						}
-					},
-					"size=xs": {
-						"styles": {
-							"height": "1.5rem",
-							"min-width": "1.5rem",
-							"font-size": "0.75rem",
-							"padding-left": "0.5rem",
-							"padding-right": "0.5rem"
-						}
-					},
-					"size=sm": {
-						"styles": {
-							"height": "2rem",
-							"min-width": "2rem",
-							"font-size": "0.875rem",
-							"padding-left": "0.75rem",
-							"padding-right": "0.75rem"
-						}
-					},
-					"size=lg": {
-						"styles": {
-							"height": "3rem",
-							"min-width": "3rem",
-							"font-size": "1.125rem",
-							"padding-left": "1.5rem",
-							"padding-right": "1.5rem"
-						}
-					},
-					"variant=link": {
-						"styles": {
-							"padding": 0,
-							"height": "auto",
-							"line-height": "normal",
-							"vertical-align": "baseline",
-							"color": "{theme.colors.gray500}",
-							"background": "transparent"
-						}
-					},
-					"variant=outline": {
-						"styles": {
-							"border": "1px solid",
-							"border-color": "{theme.colors.gray600}",
-							"background": "transparent",
-							"color": "{theme.colors.gray600}"
-						}
-					},
-					"variant=ghost": {
-						"styles": {
-							"background": "transparent",
-							"color": "{theme.colors.gray600}"
-						}
-					},
-					"variant=unstyled": {
-						"styles": {
-							"display": "inline",
-							"background": "none",
-							"color": "inherit",
-							"line-height": "inherit",
-							"padding": 0,
-							"margin": 0
-						}
-					}
-				}
+        "rules": {
+          "hover=true": {
+            "styles": {
+              "background": "{theme.colors.gray600}"
+            }
+          },
+          "active=true": {
+            "styles": {
+              "background": "{theme.colors.gray700}"
+            }
+          },
+          "focus=true": {
+            "styles": {
+              "background": "{theme.colors.gray900}"
+            }
+          },
+          "isDisabled=true": {
+            "styles": {
+              "opacity": "0.4",
+              "cursor": "not-allowed",
+              "box-shadow": "none"
+            }
+          },
+          "isLoading=true": {
+            "styles": {
+              "opacity": "0.4"
+            }
+          },
+          "leftIcon=true": {
+            "children": {
+              "leftIcon": {
+                "styles": {
+                  "display": "block"
+                }
+              }
+            }
+          },
+          "rightIcon=true": {
+            "children": {
+              "rightIcon": {
+                "styles": {
+                  "display": "block"
+                }
+              }
+            }
+          },
+          "size=xs": {
+            "styles": {
+              "height": "1.5rem",
+              "min-width": "1.5rem",
+              "font-size": "0.75rem",
+              "padding-left": "0.5rem",
+              "padding-right": "0.5rem"
+            }
+          },
+          "size=sm": {
+            "styles": {
+              "height": "2rem",
+              "min-width": "2rem",
+              "font-size": "0.875rem",
+              "padding-left": "0.75rem",
+              "padding-right": "0.75rem"
+            }
+          },
+          "size=lg": {
+            "styles": {
+              "height": "3rem",
+              "min-width": "3rem",
+              "font-size": "1.125rem",
+              "padding-left": "1.5rem",
+              "padding-right": "1.5rem"
+            }
+          },
+          "variant=link": {
+            "styles": {
+              "padding": 0,
+              "height": "auto",
+              "line-height": "normal",
+              "vertical-align": "baseline",
+              "color": "{theme.colors.gray500}",
+              "background": "transparent"
+            }
+          },
+          "variant=outline": {
+            "styles": {
+              "border": "1px solid",
+              "border-color": "{theme.colors.gray600}",
+              "background": "transparent",
+              "color": "{theme.colors.gray600}"
+            }
+          },
+          "variant=ghost": {
+            "styles": {
+              "background": "transparent",
+              "color": "{theme.colors.gray600}"
+            }
+          },
+          "variant=unstyled": {
+            "styles": {
+              "display": "inline",
+              "background": "none",
+              "color": "inherit",
+              "line-height": "inherit",
+              "padding": 0,
+              "margin": 0
+            }
+          },
+          "spinner=true": {
+            "children": {
+              "spinner": {
+                "styles": {
+                  "display": "block"
+                }
+              }
+            }
+          }
+        }
 			}
 		}
 	}

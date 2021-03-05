@@ -2,50 +2,50 @@
 	"components": {
 		"button": {
 			"variants": {
-				"variations": {
-					"variant=outline,hover=true": {
-						"styles": {
-							"background": "{theme.colors.gray50}"
-						}
-					},
-					"variant=outline,active=true": {
-						"styles": {
-							"background": "{theme.colors.gray100}"
-						}
-					},
-					"variant=link,hover=true": {
-						"styles": {
-							"text-decoration": "underline"
-						}
-					},
-					"variant=link,hover=true,isDisabled=true": {
-						"styles": {
-							"text-decoration": "none"
-						}
-					},
-					"variant=link,active=true,hover=true": {
-						"styles": {
-							"color": "{theme.colors.gray700}",
-							"text-decoration": "underline"
-						}
-					},
-					"variant=link,active=true,hover=true,isDisabled=true": {
-						"styles": {
-							"color": "{theme.colors.gray700}",
-							"text-decoration": "none"
-						}
-					},
-					"variant=ghost,hover=true": {
-						"styles": {
-							"background": "{theme.colors.gray50}"
-						}
-					},
-					"variant=ghost,active=true": {
-						"styles": {
-							"background": "{theme.colors.gray100}"
-						}
-					}
-				}
+        "variations": {
+          "variant=outline,hover=true": {
+            "styles": {
+              "background": "{theme.colors.gray50}"
+            }
+          },
+          "variant=outline,active=true": {
+            "styles": {
+              "background": "{theme.colors.gray100}"
+            }
+          },
+          "variant=link,hover=true": {
+            "styles": {
+              "text-decoration": "underline"
+            }
+          },
+          "variant=link,hover=true,isDisabled=true": {
+            "styles": {
+              "text-decoration": "none"
+            }
+          },
+          "variant=link,active=true,hover=true": {
+            "styles": {
+              "color": "{theme.colors.gray700}",
+              "text-decoration": "underline"
+            }
+          },
+          "variant=link,active=true,hover=true,isDisabled=true": {
+            "styles": {
+              "color": "{theme.colors.gray700}",
+              "text-decoration": "none"
+            }
+          },
+          "variant=ghost,hover=true": {
+            "styles": {
+              "background": "{theme.colors.gray50}"
+            }
+          },
+          "variant=ghost,active=true": {
+            "styles": {
+              "background": "{theme.colors.gray100}"
+            }
+          }
+        }
 			}
 		}
 	}
