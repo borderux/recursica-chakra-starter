@@ -59,13 +59,13 @@
         "name": "Gray 900",
         "value": "#171923"
       }
-    }
-  },
-  "fonts": {
-    "inter": {
-      "name": "Inter",
-      "value": "Inter, sans-serif",
-      "default": "true"
+    },
+    "fonts": {
+      "inter": {
+        "name": "Inter",
+        "value": "Inter, sans-serif",
+        "default": "true"
+      }
     }
   }
 }
