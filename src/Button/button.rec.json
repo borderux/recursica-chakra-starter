@@ -28,7 +28,7 @@
       "children": {
         "leftIcon": {
           "name": "Left Icon",
-          "inherits": "{icons.menu}",
+          "inherits": "{icons.EmailIcon}",
           "styles": {
             "display": "none",
             "fill": "{theme.colors.white}",
@@ -38,7 +38,7 @@
         },
         "spinner": {
           "name": "Spinner",
-          "inherits": "{icons.search}",
+          "inherits": "{icons.SpinnerIcon}",
           "styles": {
             "display": "none",
             "fill": "{theme.colors.white}",
@@ -59,7 +59,7 @@
         },
         "rightIcon": {
           "name": "Right Icon",
-          "inherits": "{icons.menu}",
+          "inherits": "{icons.SearchIcon}",
           "styles": {
             "display": "none",
             "fill": "{theme.colors.white}",
