@@ -3,14 +3,34 @@
 		"button": {
 			"variants": {
         "variations": {
+          "variant=solid,hover=true": {
+            "styles": {
+              "background-color": "{theme.colors.gray200}"
+            }
+          },
+          "variant=solid,active=true": {
+            "styles": {
+              "background-color": "{theme.colors.gray300}"
+            }
+          },
+          "variant=ghost,hover=true": {
+            "styles": {
+              "background-color": "{theme.colors.gray100}"
+            }
+          },
+          "variant=ghost,active=true": {
+            "styles": {
+              "background-color": "{theme.colors.gray200}"
+            }
+          },
           "variant=outline,hover=true": {
             "styles": {
-              "background": "{theme.colors.gray50}"
+              "background-color": "{theme.colors.gray100}"
             }
           },
           "variant=outline,active=true": {
             "styles": {
-              "background": "{theme.colors.gray100}"
+              "background-color": "{theme.colors.gray200}"
             }
           },
           "variant=link,hover=true": {
@@ -18,31 +38,9 @@
               "text-decoration": "underline"
             }
           },
-          "variant=link,hover=true,isDisabled=true": {
+          "variant=link,active=true": {
             "styles": {
-              "text-decoration": "none"
-            }
-          },
-          "variant=link,active=true,hover=true": {
-            "styles": {
-              "color": "{theme.colors.gray700}",
-              "text-decoration": "underline"
-            }
-          },
-          "variant=link,active=true,hover=true,isDisabled=true": {
-            "styles": {
-              "color": "{theme.colors.gray700}",
-              "text-decoration": "none"
-            }
-          },
-          "variant=ghost,hover=true": {
-            "styles": {
-              "background": "{theme.colors.gray50}"
-            }
-          },
-          "variant=ghost,active=true": {
-            "styles": {
-              "background": "{theme.colors.gray100}"
+              "color": "{theme.colors.gray700}"
             }
           }
         }

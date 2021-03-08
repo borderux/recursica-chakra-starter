@@ -8,19 +8,7 @@
           "active": "false"
         },
         "properties": {
-          "colorScheme": {
-            "default": "gray",
-            "values": "gray"
-          },
-          "iconSpacing": {
-            "default": "SystemProps['marginRight']",
-            "values": "SystemProps['marginRight']"
-          },
           "isDisabled": {
-            "default": "false",
-            "values": "true, false"
-          },
-          "isFullWidth": {
             "default": "false",
             "values": "true, false"
           },

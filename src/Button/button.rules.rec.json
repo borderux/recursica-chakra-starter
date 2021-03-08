@@ -3,19 +3,9 @@
 		"button": {
 			"variants": {
         "rules": {
-          "hover=true": {
-            "styles": {
-              "background": "{theme.colors.gray600}"
-            }
-          },
-          "active=true": {
-            "styles": {
-              "background": "{theme.colors.gray700}"
-            }
-          },
           "focus=true": {
             "styles": {
-              "background": "{theme.colors.gray900}"
+              "box-shadow": "0 0 0 3px rgb(66 153 225 / 60%)"
             }
           },
           "isDisabled=true": {
@@ -66,6 +56,15 @@
               "padding-right": "0.75rem"
             }
           },
+          "size=md": {
+            "styles": {
+							"height": "2.5rem",
+							"min-width": "2.5rem",
+							"font-size": "1rem",
+							"padding-left": "1rem",
+							"padding-right": "1rem"
+            }
+          },
           "size=lg": {
             "styles": {
               "height": "3rem",
@@ -73,6 +72,15 @@
               "font-size": "1.125rem",
               "padding-left": "1.5rem",
               "padding-right": "1.5rem"
+            }
+          },
+          "variant=solid": {
+            "styles": {
+              "padding": 0,
+              "height": "auto",
+              "line-height": "normal",
+              "vertical-align": "baseline",
+              "background": "transparent"
             }
           },
           "variant=link": {
@@ -89,14 +97,12 @@
             "styles": {
               "border": "1px solid",
               "border-color": "{theme.colors.gray600}",
-              "background": "transparent",
-              "color": "{theme.colors.gray600}"
+              "background": "transparent"
             }
           },
           "variant=ghost": {
             "styles": {
-              "background": "transparent",
-              "color": "{theme.colors.gray600}"
+              "background": "transparent"
             }
           },
           "variant=unstyled": {
@@ -113,7 +119,7 @@
             "children": {
               "spinner": {
                 "styles": {
-                  "display": "block"
+                  "display": "flex"
                 }
               }
             }
