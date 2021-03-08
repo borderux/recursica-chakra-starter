@@ -76,11 +76,6 @@
           },
           "variant=solid": {
             "styles": {
-              "padding": 0,
-              "height": "auto",
-              "line-height": "normal",
-              "vertical-align": "baseline",
-              "background": "transparent",
 							"background-color": "{theme.colors.gray200}"
             }
           },
