@@ -14,7 +14,8 @@
         "outline": "none",
         "width": "auto",
         "font-weight": "600",
-        "color": "{theme.colors.gray800}"
+        "color": "{theme.colors.gray800}",
+        "border-radius": "0.25rem"
       },
       "children": {
         "leftIcon": {
@@ -22,9 +23,13 @@
           "inherits": "{icons.EmailIcon}",
           "styles": {
             "display": "none",
-            "fill": "{theme.colors.white}",
             "height": "1em",
-            "width": "1em"
+            "width": "1em",
+            "margin-left": "-0.25rem",
+            "margin-right": "0.5rem",
+            "vertical-align": "middle",
+            "flex-shrink": "0",
+            "backface-visibility": "hidden"
           }
         },
         "spinner": {
@@ -32,7 +37,6 @@
           "inherits": "{icons.SpinnerIcon}",
           "styles": {
             "display": "none",
-            "fill": "{theme.colors.white}",
             "height": "1em",
             "width": "1em"
           }
@@ -53,9 +57,13 @@
           "inherits": "{icons.SearchIcon}",
           "styles": {
             "display": "none",
-            "fill": "{theme.colors.white}",
             "height": "1em",
-            "width": "1em"
+            "width": "1em",
+            "margin-right": "-0.25rem",
+            "margin-left": "0.5rem",
+            "vertical-align": "middle",
+            "flex-shrink": "0",
+            "backface-visibility": "hidden"
           }
         }
       }

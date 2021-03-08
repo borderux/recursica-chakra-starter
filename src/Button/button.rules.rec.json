@@ -80,7 +80,8 @@
               "height": "auto",
               "line-height": "normal",
               "vertical-align": "baseline",
-              "background": "transparent"
+              "background": "transparent",
+							"background-color": "{theme.colors.gray200}"
             }
           },
           "variant=link": {
