@@ -30,16 +30,18 @@
             "margin-right": "0.5rem",
             "vertical-align": "middle",
             "flex-shrink": "0",
-            "backface-visibility": "hidden"
+            "backface-visibility": "hidden",
+            "color": "{theme.colors.gray800}"
           }
         },
         "spinner": {
           "name": "Spinner",
-          "inherits": "{icons.SpinnerIcon}",
+          "inherits": "{components.spinner}",
           "styles": {
             "display": "none",
             "height": "1em",
-            "width": "1em"
+            "width": "1em",
+            "color": "{theme.colors.gray800}"
           }
         },
         "label": {
@@ -64,11 +66,17 @@
             "margin-left": "0.5rem",
             "vertical-align": "middle",
             "flex-shrink": "0",
-            "backface-visibility": "hidden"
+            "backface-visibility": "hidden",
+            "color": "{theme.colors.gray800}"
           }
         }
       }
     }
   },
-  "imports": ["button.properties.rec.json", "button.rules.rec.json", "button.variations.rec.json", "button.disallowed.rec.json"]
+  "imports": [
+    "button.properties.rec.json",
+    "button.rules.rec.json",
+    "button.variations.rec.json",
+    "button.disallowed.rec.json"
+  ]
 }

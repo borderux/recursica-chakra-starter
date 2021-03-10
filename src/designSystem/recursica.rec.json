@@ -294,6 +294,7 @@
   },
   "imports": [
     "theme.rec.json",
-    "../Button/button.rec.json"
+    "../Button/button.rec.json",
+    "../Spinner/spinner.rec.json"
   ]
 }

@@ -1,7 +1,7 @@
 {
-	"components": {
-		"button": {
-			"variants": {
+  "components": {
+    "button": {
+      "variants": {
         "variations": {
           "variant=solid,hover=true": {
             "styles": {
@@ -44,7 +44,7 @@
             }
           }
         }
-			}
-		}
-	}
+      }
+    }
+  }
 }

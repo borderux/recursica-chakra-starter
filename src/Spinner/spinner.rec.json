@@ -1,0 +1,54 @@
+{
+  "components": {
+    "spinner": {
+      "name": "Spinner",
+      "styles": {
+        "display": "inline-block",
+        "border-color": "{theme.colors.gray800}",
+        "border-style": "solid",
+        "border-radius": "99999px",
+        "border-width": "2px"
+      },
+      "variants": {
+        "properties": {
+          "size": {
+            "default": "md",
+            "values": "xs, sm, md, lg, xl"
+          }
+        },
+        "rules": {
+          "size=xs": {
+            "styles": {
+              "height": "0.75rem",
+              "width": "0.75rem"
+            }
+          },
+          "size=sm": {
+            "styles": {
+              "height": "1rem",
+              "width": "1rem"
+            }
+          },
+          "size=md": {
+            "styles": {
+              "height": "1.5rem",
+              "width": "1.5rem"
+            }
+          },
+          "size=lg": {
+            "styles": {
+              "height": "2rem",
+              "width": "2rem"
+            }
+          },
+          "size=xl": {
+            "styles": {
+              "height": "3rem",
+              "width": "3rem"
+            }
+          }
+        }
+      }
+    }
+  }
+}
